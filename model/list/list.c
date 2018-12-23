@@ -1,7 +1,7 @@
 #include "list.h"
 #include <stdlib.h>
 #include <memory.h>
-
+#include <string.h>
 
 List create() {
 	List l;
