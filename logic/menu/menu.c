@@ -94,6 +94,9 @@ void printDestination(Destination d, int pos, int option) {
 		case BY_AVG_PRICE:
 			printf("\tAvg Price:\t%lf\n", getAverageHotelPrice(d));
 			break;
+		default:
+			print("Error, opcio fora de rang\n");
+			break;
 	}
 }
 
