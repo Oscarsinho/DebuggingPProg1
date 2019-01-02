@@ -76,6 +76,11 @@ void planTrip(List *l){
             }
             free(map);
             break;
+	
+	default:
+		printf("Error\n");
+		break;
+		    
     }
 
 }
