@@ -122,5 +122,7 @@ void execute(int option, List * l) {
 		case 3:
 			readNewFile(l);
 			break;
+		default:
+			printf("Error\n");
 	}
 }
